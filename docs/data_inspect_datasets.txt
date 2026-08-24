@@ -1,0 +1,9 @@
+Dataset File Name,                          Business Entity,        Primary Key,                        Foreign Keys
+olist_orders_dataset.csv,                   Orders,                 order_id,                           customer_id,
+olist_customers_dataset.csv,                Customers,              customer_id,                        None,
+olist_order_items_dataset.csv,              Order Items,            "(order_id, order_item_id)",        "order_id, product_id, seller_id",
+olist_products_dataset.csv,                 Products,               product_id,                         None,
+olist_sellers_dataset.csv,                  Sellers,                seller_id,                          None,
+olist_order_payments_dataset.csv,           Payments,               "(order_id, payment_sequential)",   order_id,
+olist_order_reviews_dataset.csv,            Reviews,                review_id,                          order_id,
+product_category_name_translation.csv,      Translations,           product_category_name,              None,
